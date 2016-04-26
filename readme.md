@@ -6,6 +6,7 @@ Here is an Elasticsearch tool list.
 	- [Elasticsearch](#elasticsearch plugins)
     - [Elasticsearch Log DB](#elasticsearch log database)
     - [Elasticsearch River](#elasticsearch river)
+    - [Elasticsearch Client](#elasticsearch client framework)
 	- [Kibana](#kibana plugins)
 	- [Elasticsearch Book](#elasticsearch books)
 	- [Elasticsearch Problem](#elasticsearch problems and resolvements)
@@ -33,6 +34,11 @@ Here is an Elasticsearch tool list.
 * [elasticsearch-river-kafka](https://github.com/mariamhakobyan/elasticsearch-river-kafka) - The Kafka River plugin allows you to read messages from Kafka and index bulked messages into elasticsearch. The bulk size (the number of messages to be indexed in one request) and concurrent request number is configurable. The Kafka River also supports consuming messages from multiple Kafka brokers and multiple partitions. star: 56(until 2016/04/26).
 * [elasticsearch-river-mysql(STOPPED)](https://github.com/scharron/elasticsearch-river-mysql) - A river for elasticsearch to automatically index mysql content using the replication feed. The Mysql River plugin allows to hook into Mysql replication feed using the excellent python-mysql-replication and automatically index it into elasticsearch. This plugin is based on the elasticsearch-river-couchdb plugin. star: 63(until 2016/04/26).
 * [Elasticsearch-HBase-River](https://github.com/mallocator/Elasticsearch-HBase-River) - An import river similar to the elasticsearch mysql river. If you're looking for an alternative sollution that uses the core hbase libraries and uses hbase replication for moving data, you can find one here: https://github.com/posix4e/Elasticsearch-HBase-River. star: 15(until 2016/04/26).
+
+---
+## Elasticsearch Client
+* [play2-elasticsearch](https://github.com/cleverage/play2-elasticsearch) - Elasticsearch module for PlayFramework 2.x applications. star: 158(until 2016/04/26).
+
 
 ---
 ## Kibana
