@@ -14,12 +14,13 @@ Here is an Elasticsearch tool list.
 
 ---
 ## Elasticsearch
+* [elasticsearch](https://github.com/elastic/elasticsearch/blob/v5.0.0-alpha1/README.textile) - A Distributed RESTful Search Engine. star: 16156(until 2016/04/26).
 * [elasticsearch-head](https://github.com/mobz/elasticsearch-head) - A web front end for an Elasticsearch cluster. star: 1881(until 2016/04/26).
 * [elastalert](https://github.com/Yelp/elastalert) - Easy & Flexible Alerting With ElasticSearch. ElastAlert is a simple framework for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch. star: 1574(until 2016/04/26).
 * [kopf](https://github.com/lmenezes/elasticsearch-kopf) - web admin interface for elasticsearch. kopf is a simple web administration tool for elasticsearch written in JavaScript + AngularJS + jQuery + Twitter bootstrap. It offers an easy way of performing common tasks on an elasticsearch cluster. Not every single API is covered by this plugin, but it does offer a REST client which allows you to explore the full potential of the ElasticSearch API. star: 1351(until 2016/04/26).
 * [elasticsearch-sql](https://github.com/NLPchina/elasticsearch-sql) - Query elasticsearch using familiar SQL syntax. You can also use ES functions in SQL. star: 1318(until 2016/04/26).
 * [bigdesk](https://github.com/lukas-vlcek/bigdesk) - Live charts and statistics for Elasticsearch cluster. star: 1003(until 2016/04/26).
-* [elasticsearch](https://github.com/elastic/elasticsearch/blob/v5.0.0-alpha1/README.textile) - A Distributed RESTful Search Engine. star: 16156(until 2016/04/26).
+* [elasticsearch-segmentspy](https://github.com/polyfractal/elasticsearch-segmentspy) - SegmentSpy is a tool to watch the segments in your indices. Segment graphs update in real-time, allowing you to watch as ElasticSearch (Lucene) merges your segments. SegmentSpy has only been tested on 0.20.2 – 0.90.3. star: 101(until 2016/04/26).
 
 ---
 ## Elasticsearch Log DB
