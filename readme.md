@@ -31,7 +31,8 @@ Here is an Elasticsearch tool list. I hope you will find one or two of them that
 ---
 ## Elasticsearch Problem
 * [ES java very high CPU usage 100%](https://github.com/elastic/elasticsearch/issues/4288) - Force all memory to be locked, forcing the JVM to never swap.
-  My suggestion is as follows:
+
+  To solve 100% es cpu problems, my suggestion is as follows:
   - 1 close every shard's replica;
   - 2 set the refresh interval of every index from the default value 1s to 5 or 30s;
   - 3 set the minimum java memory space equal to its maximum value when es startups.
