@@ -6,6 +6,7 @@ Here is an Elasticsearch tool list. I hope you will find one or two of them that
 	- [Elasticsearch](#elasticsearch plugins)
 	- [Kibana](#kibana plugins)
 	- [Elasticsearch Book](#elasticsearch books)
+	- [Elasticsearch Problem](#elasticsearch problems and resolvements)
 	- [Elasticsearch Ecosystem](#elasticsearch ecosystem)
 
 ---
@@ -26,6 +27,14 @@ Here is an Elasticsearch tool list. I hope you will find one or two of them that
 ## Elasticsearch Book
 * [elasticsearch-definitive-guide-cn](https://github.com/looly/elasticsearch-definitive-guide-cn) - A Chinese translation book of [elastic/elasticsearch-definitive-guide](https://github.com/elastic/elasticsearch-definitive-guide). star: 750(until 2016/04/26).
 * [elasticsearch-definitive-guide-cn](https://github.com/chenryn/ELKstack-guide-cn) - Elasticsearch, Logstash, Kibana user guide in Chinese. star: 121(until 2016/04/26).
+
+---
+## Elasticsearch Problem
+* [ES java very high CPU usage 100%](https://github.com/elastic/elasticsearch/issues/4288) - Force all memory to be locked, forcing the JVM to never swap.
+  My suggestion is as follows:
+  - 1 close every shard's replica;
+  - 2 set the refresh interval of every index from the default value 1s to 5 or 30s;
+  - 3 set the minimum java memory space equal to its maximum value when es startups.
 
 ---
 ## Elasticsearch Ecosystem
