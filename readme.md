@@ -1,6 +1,6 @@
 ﻿# Elasticsearch tool list #
 
-Here is an Elasticsearch tool list. I hope you will find one or two of them that you'd like to try out.
+Here is an Elasticsearch tool list.
 
 - [Elasticsearch tool list](#elasticsearch tool list)
 	- [Elasticsearch](#elasticsearch plugins)
