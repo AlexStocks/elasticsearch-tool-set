@@ -16,6 +16,7 @@ Here is an Elasticsearch tool list. I hope you will find one or two of them that
 
 ---
 ## Kibana
+* [grafana](https://github.com/grafana/grafana) - Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB. star: 9458(until 2016/04/26).
 * [elasticsearch-HQ](https://github.com/royrusso/elasticsearch-HQ) - Monitoring and Management Web Application for ElasticSearch instances and clusters. star: 2153(until 2016/04/26).
 * [kibana-authorization](https://github.com/chenryn/kibana-authorization) - Enhanced Kibana 3 with several aggregation panels, html5 notification, authentication and authorization. star: 94(until 2016/04/26).
 * [oauth2](https://github.com/trevan/oauth2) - An OAuth Plugin for Kibana 4. It uses Bell for the OAuth handling. star: 14(until 2016/04/26).
