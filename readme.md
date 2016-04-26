@@ -4,6 +4,8 @@ Here is an Elasticsearch tool list. I hope you will find one or two of them that
 
 - [Elasticsearch tool list](#elasticsearch tool list)
 	- [Elasticsearch](#elasticsearch plugins)
+    - [Elasticsearch Log DB](#elasticsearch log database)
+    - [Elasticsearch River](#elasticsearch river)
 	- [Kibana](#kibana plugins)
 	- [Elasticsearch Book](#elasticsearch books)
 	- [Elasticsearch Problem](#elasticsearch problems and resolvements)
@@ -16,6 +18,21 @@ Here is an Elasticsearch tool list. I hope you will find one or two of them that
 * [elasticsearch-sql](https://github.com/NLPchina/elasticsearch-sql) - Query elasticsearch using familiar SQL syntax. You can also use ES functions in SQL. star: 1318(until 2016/04/26).
 * [bigdesk](https://github.com/lukas-vlcek/bigdesk) - Live charts and statistics for Elasticsearch cluster. star: 1003(until 2016/04/26).
 * [elasticsearch](https://github.com/elastic/elasticsearch/blob/v5.0.0-alpha1/README.textile) - A Distributed RESTful Search Engine. star: 16156(until 2016/04/26).
+
+---
+## Elasticsearch Log DB
+* [elasticsearch-hadoop](https://github.com/elastic/elasticsearch-hadoop) -  Elasticsearch real-time search and analytics natively integrated with Hadoop. Supports Map/Reduce, Cascading, Apache Hive, Apache Pig, Apache Spark and Apache Storm. star: 695(until 2016/04/26).
+* [elasticsearch-hdfs](https://github.com/elastic/elasticsearch-hdfs) - Hadoop Plugin for Elasticsearch. The Hadoop plugin allows to use Hadoop as a shared gateway for Elasticsearch. star: 39(until 2016/04/26).
+
+---
+## Elasticsearch River
+* [elasticsearch-river-mongodb](https://github.com/richardwilly98/elasticsearch-river-mongodb) - MongoDB River Plugin for ElasticSearch. This plugin uses MongoDB or the TokuMX fork of MongoDB as datasource to store data in ElasticSearch. Filtering and transformation are also possible. star: 918(until 2016/04/26).
+* [elasticsearch-river-web](https://github.com/codelibs/elasticsearch-river-web) - Elasticsearch River Web is a web crawler application for Elasticsearch. This application provides a feature to crawl web sites and extract the content by CSS Query. (As of version 1.5, River Web is not Elasticsearch plugin). star: 158(until 2016/04/26).
+* [elasticsearch-river-couchdb(STOPPED)](https://github.com/elastic/elasticsearch-river-couchdb) - CouchDB River Plugin for Elasticsearch. The CouchDB River plugin allows to automatically index couchdb and make it searchable using the excellent _changes stream couchdb provides. CouchDB River Plugin for elasticsearch (STOPPED). star: 160(until 2016/04/26).
+* [elasticsearch-river-rabbitmq(STOPPED)](https://github.com/elastic/elasticsearch-river-rabbitmq) - RabbitMQ River Plugin for Elasticsearch. The RabbitMQ River plugin allows index bulk format messages into elasticsearch. RabbitMQ River allows to automatically index a RabbitMQ queue. Important: This project has been stopped since elasticsearch 2.0. star: 154(until 2016/04/26).
+* [elasticsearch-river-kafka](https://github.com/mariamhakobyan/elasticsearch-river-kafka) - The Kafka River plugin allows you to read messages from Kafka and index bulked messages into elasticsearch. The bulk size (the number of messages to be indexed in one request) and concurrent request number is configurable. The Kafka River also supports consuming messages from multiple Kafka brokers and multiple partitions. star: 56(until 2016/04/26).
+* [elasticsearch-river-mysql(STOPPED)](https://github.com/scharron/elasticsearch-river-mysql) - A river for elasticsearch to automatically index mysql content using the replication feed. The Mysql River plugin allows to hook into Mysql replication feed using the excellent python-mysql-replication and automatically index it into elasticsearch. This plugin is based on the elasticsearch-river-couchdb plugin. star: 63(until 2016/04/26).
+* [Elasticsearch-HBase-River](https://github.com/mallocator/Elasticsearch-HBase-River) - An import river similar to the elasticsearch mysql river. If you're looking for an alternative sollution that uses the core hbase libraries and uses hbase replication for moving data, you can find one here: https://github.com/posix4e/Elasticsearch-HBase-River. star: 15(until 2016/04/26).
 
 ---
 ## Kibana
