@@ -21,6 +21,8 @@ Here is an Elasticsearch tool list.
 * [elasticsearch-sql](https://github.com/NLPchina/elasticsearch-sql) - Query elasticsearch using familiar SQL syntax. You can also use ES functions in SQL. star: 1318(until 2016/04/26).
 * [bigdesk](https://github.com/lukas-vlcek/bigdesk) - Live charts and statistics for Elasticsearch cluster. star: 1003(until 2016/04/26).
 * [elasticsearch-segmentspy](https://github.com/polyfractal/elasticsearch-segmentspy) - SegmentSpy is a tool to watch the segments in your indices. Segment graphs update in real-time, allowing you to watch as ElasticSearch (Lucene) merges your segments. SegmentSpy has only been tested on 0.20.2 – 0.90.3. star: 101(until 2016/04/26).
+* [elasticsearch-servicewrapper](https://github.com/elastic/elasticsearch-servicewrapper) - A service wrapper execution for elasticsearch using Java Service Wrapper. DEPRECATED: The service wrapper is deprecated and not maintained. It no longer works with Elasticsearch 2.x. Many of the features have been added to Elastisearch itself, and purpose built deb, rpm packages, as well as windows service, are avaialble. star: 394(until 2016/04/26);  
+
 
 ---
 ## Elasticsearch Log DB
