@@ -65,7 +65,8 @@ Here is an Elasticsearch tool list.
   - 1 close every shard's replica;
   - 2 set the refresh interval of every index from the default value 1s to 5 or 30s;
   - 3 set the minimum java memory space equal to its maximum value when es startups.
-
+* [Understanding the Memory Pressure Indicator](https://www.elastic.co/blog/found-understanding-memory-pressure-indicator)
+  
 ---
 ## Elasticsearch Ecosystem
 * [awesome-elasticsearch](https://github.com/dzharii/awesome-elasticsearch) - A curated list of amazingly awesome redis and redis ecosystem resources. star: 265(until 2016/04/26).
