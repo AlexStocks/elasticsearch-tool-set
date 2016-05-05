@@ -87,7 +87,7 @@ Here is an Elasticsearch tool list.
   - 4 create/close/delete timeout index in time;
   - 5 using mapping.
 * [Understanding the Memory Pressure Indicator](https://www.elastic.co/blog/found-understanding-memory-pressure-indicator)
-* [新浪是如何分析处理32亿条实时日志的](http://dockone.io/article/505)
+* [新浪是如何分析处理32亿条实时日志的](http://dockone.io/article/505) - I up9load its pdf doc to [my github repository](https://github.com/AlexStocks/elasticsearch-tool-set/blob/master/Better_ELK.pdf) because its primary storage place--vdisk.weibo.com of sina will be closed on 2016/06/30 by powerful force.
   
 ---
 ## Elasticsearch Ecosystem
@@ -97,3 +97,4 @@ Here is an Elasticsearch tool list.
 * written by Alex Stocks on 2016/04/26
 * add elasticsearch-migration on 2016/04/27
 * add elasticsearch-paramedic && elasticsearch-inquisitor && elasticsearch-analysis-ik && elasticsearch-analysis-pinyin && elasticsearch-analysis-smartcn && elasticsearch-analysis-mmseg && elasticsearch-analysis-ansj && elasticsearch-analysis-combo && elasticsearch-analysis-stconvert && elasticsearch-mapper-attachments && elasticsearch-analysis-string2int on 2016/04/28
+* add sina elk use experience on 2016/05/05.
