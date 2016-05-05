@@ -76,6 +76,9 @@ Here is an Elasticsearch tool list.
 ## Elasticsearch Book
 * [elasticsearch-definitive-guide-cn](https://github.com/looly/elasticsearch-definitive-guide-cn) - A Chinese translation book of [elastic/elasticsearch-definitive-guide](https://github.com/elastic/elasticsearch-definitive-guide). star: 750(until 2016/04/26).
 * [elasticsearch-definitive-guide-cn](https://github.com/chenryn/ELKstack-guide-cn) - Elasticsearch, Logstash, Kibana user guide in Chinese. star: 121(until 2016/04/26).
+* [Understanding the Memory Pressure Indicator](https://www.elastic.co/blog/found-understanding-memory-pressure-indicator)
+* [新浪是如何分析处理32亿条实时日志的](http://dockone.io/article/505) - I upload its pdf doc to [my github repository](https://github.com/AlexStocks/elasticsearch-tool-set/blob/master/Better_ELK.pdf) because its primary storage place--vdisk.weibo.com of sina will be closed on 2016/06/30 by powerful force.
+* [基于Flume+Kafka+ Elasticsearch+Storm的海量日志实时分析平台](https://mp.weixin.qq.com/s?__biz=MzIzMzEzODYwOA==&mid=2665283950&idx=1&sn=9005fcaf85f8d4673c62f4067bf3d0ca&scene=2&srcid=0426cgGHbl44hdDO98YUL1ER&from=timeline&isappinstalled=0&pass_ticket=Sf%2FiqNSerEetqlVE7xucKwOzQLuaGO45bEETgpGh49lRZHzeqclwnRNa6StbAp3y)  
 
 ---
 ## Elasticsearch Problem
@@ -87,9 +90,13 @@ Here is an Elasticsearch tool list.
   - 3 set the minimum java memory space equal to its maximum value when es startups;
   - 4 create/close/delete timeout index in time;
   - 5 using mapping.
-* [Understanding the Memory Pressure Indicator](https://www.elastic.co/blog/found-understanding-memory-pressure-indicator)
-* [新浪是如何分析处理32亿条实时日志的](http://dockone.io/article/505) - I upload its pdf doc to [my github repository](https://github.com/AlexStocks/elasticsearch-tool-set/blob/master/Better_ELK.pdf) because its primary storage place--vdisk.weibo.com of sina will be closed on 2016/06/30 by powerful force.
-* [基于Flume+Kafka+ Elasticsearch+Storm的海量日志实时分析平台](https://mp.weixin.qq.com/s?__biz=MzIzMzEzODYwOA==&mid=2665283950&idx=1&sn=9005fcaf85f8d4673c62f4067bf3d0ca&scene=2&srcid=0426cgGHbl44hdDO98YUL1ER&from=timeline&isappinstalled=0&pass_ticket=Sf%2FiqNSerEetqlVE7xucKwOzQLuaGO45bEETgpGh49lRZHzeqclwnRNa6StbAp3y)  
+* [elastalert do not support aggregation]
+  - 1 https://github.com/Yelp/elastalert/issues/369
+        Basic terms aggregation is supported. Look for use_terms_query in the documentation. Beyond that, custom aggregations are not supported. Closing as duplicate of #169
+  - 2 https://github.com/Yelp/elastalert/issues/401
+        I have looked through ElastAlert config sheet and source code. It seems ElastAlert doesn't support aggregation query from ElasticSearch.
+  - 3 https://github.com/Yelp/elastalert
+        The only aggregation supported currently is a terms aggregation, by setting use_terms_query.
   
 ---
 ## Elasticsearch Ecosystem
