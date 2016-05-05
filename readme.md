@@ -27,6 +27,7 @@ Here is an Elasticsearch tool list.
 * [elasticsearch-servicewrapper](https://github.com/elastic/elasticsearch-servicewrapper) - A service wrapper execution for elasticsearch using Java Service Wrapper. DEPRECATED: The service wrapper is deprecated and not maintained. It no longer works with Elasticsearch 2.x. Many of the features have been added to Elastisearch itself, and purpose built deb, rpm packages, as well as windows service, are avaialble. star: 394(until 2016/04/26);  
 * [elasticsearch-segmentspy](https://github.com/polyfractal/elasticsearch-segmentspy) - SegmentSpy is a tool to watch the segments in your indices. Segment graphs update in real-time, allowing you to watch as ElasticSearch (Lucene) merges your segments. SegmentSpy has only been tested on 0.20.2 – 0.90.3. star: 101(until 2016/04/26).
 * [elasticsearch-migration](https://github.com/elastic/elasticsearch-migration) - A plugin to check whether your 0.90 or 1.x cluster can be upgraded directly to 2.x, or whether there are incompatibilites that need resolving first. star: 107(until 2016/04/27).
+* [elastalert-elasticsearch_aggregations_query_support](https://github.com/errordaiwa/elastalert/tree/feature/elasticsearch_aggregations_query_support) -  support aggregation query from elasticsearch. star: 0(until 2016/05/05).
 
 ---
 ## Elasticsearch Log DB
@@ -87,7 +88,7 @@ Here is an Elasticsearch tool list.
   - 4 create/close/delete timeout index in time;
   - 5 using mapping.
 * [Understanding the Memory Pressure Indicator](https://www.elastic.co/blog/found-understanding-memory-pressure-indicator)
-* [新浪是如何分析处理32亿条实时日志的](http://dockone.io/article/505) - I up9load its pdf doc to [my github repository](https://github.com/AlexStocks/elasticsearch-tool-set/blob/master/Better_ELK.pdf) because its primary storage place--vdisk.weibo.com of sina will be closed on 2016/06/30 by powerful force.
+* [新浪是如何分析处理32亿条实时日志的](http://dockone.io/article/505) - I upload its pdf doc to [my github repository](https://github.com/AlexStocks/elasticsearch-tool-set/blob/master/Better_ELK.pdf) because its primary storage place--vdisk.weibo.com of sina will be closed on 2016/06/30 by powerful force.
 * [基于Flume+Kafka+ Elasticsearch+Storm的海量日志实时分析平台](https://mp.weixin.qq.com/s?__biz=MzIzMzEzODYwOA==&mid=2665283950&idx=1&sn=9005fcaf85f8d4673c62f4067bf3d0ca&scene=2&srcid=0426cgGHbl44hdDO98YUL1ER&from=timeline&isappinstalled=0&pass_ticket=Sf%2FiqNSerEetqlVE7xucKwOzQLuaGO45bEETgpGh49lRZHzeqclwnRNa6StbAp3y)  
   
 ---
@@ -98,4 +99,4 @@ Here is an Elasticsearch tool list.
 * written by Alex Stocks on 2016/04/26
 * add elasticsearch-migration on 2016/04/27
 * add elasticsearch-paramedic && elasticsearch-inquisitor && elasticsearch-analysis-ik && elasticsearch-analysis-pinyin && elasticsearch-analysis-smartcn && elasticsearch-analysis-mmseg && elasticsearch-analysis-ansj && elasticsearch-analysis-combo && elasticsearch-analysis-stconvert && elasticsearch-mapper-attachments && elasticsearch-analysis-string2int on 2016/04/28
-* add ELK & EFK use experience on 2016/05/05.
+* add ELK doc & EFK doc & elastalert-elasticsearch_aggregations_query_support on 2016/05/05.
