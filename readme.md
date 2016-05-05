@@ -83,8 +83,11 @@ Here is an Elasticsearch tool list.
   To solve 100% es cpu problems, my suggestion is as follows:
   - 1 close every shard's replica;
   - 2 set the refresh interval of every index from the default value 1s to 5 or 30s;
-  - 3 set the minimum java memory space equal to its maximum value when es startups.
+  - 3 set the minimum java memory space equal to its maximum value when es startups;
+  - 4 create/close/delete timeout index in time;
+  - 5 using mapping.
 * [Understanding the Memory Pressure Indicator](https://www.elastic.co/blog/found-understanding-memory-pressure-indicator)
+* [新浪是如何分析处理32亿条实时日志的](http://dockone.io/article/505)
   
 ---
 ## Elasticsearch Ecosystem
