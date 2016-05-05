@@ -88,6 +88,7 @@ Here is an Elasticsearch tool list.
   - 5 using mapping.
 * [Understanding the Memory Pressure Indicator](https://www.elastic.co/blog/found-understanding-memory-pressure-indicator)
 * [新浪是如何分析处理32亿条实时日志的](http://dockone.io/article/505) - I up9load its pdf doc to [my github repository](https://github.com/AlexStocks/elasticsearch-tool-set/blob/master/Better_ELK.pdf) because its primary storage place--vdisk.weibo.com of sina will be closed on 2016/06/30 by powerful force.
+* [基于Flume+Kafka+ Elasticsearch+Storm的海量日志实时分析平台](https://mp.weixin.qq.com/s?__biz=MzIzMzEzODYwOA==&mid=2665283950&idx=1&sn=9005fcaf85f8d4673c62f4067bf3d0ca&scene=2&srcid=0426cgGHbl44hdDO98YUL1ER&from=timeline&isappinstalled=0&pass_ticket=Sf%2FiqNSerEetqlVE7xucKwOzQLuaGO45bEETgpGh49lRZHzeqclwnRNa6StbAp3y)  
   
 ---
 ## Elasticsearch Ecosystem
@@ -97,4 +98,4 @@ Here is an Elasticsearch tool list.
 * written by Alex Stocks on 2016/04/26
 * add elasticsearch-migration on 2016/04/27
 * add elasticsearch-paramedic && elasticsearch-inquisitor && elasticsearch-analysis-ik && elasticsearch-analysis-pinyin && elasticsearch-analysis-smartcn && elasticsearch-analysis-mmseg && elasticsearch-analysis-ansj && elasticsearch-analysis-combo && elasticsearch-analysis-stconvert && elasticsearch-mapper-attachments && elasticsearch-analysis-string2int on 2016/04/28
-* add sina elk use experience on 2016/05/05.
+* add ELK & EFK use experience on 2016/05/05.
