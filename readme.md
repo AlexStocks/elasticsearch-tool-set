@@ -1,4 +1,4 @@
-﻿# Elasticsearch tool list #
+# Elasticsearch tool list #
 
 Here is an Elasticsearch tool list.
 
@@ -19,7 +19,8 @@ Here is an Elasticsearch tool list.
 * [elasticsearch](https://github.com/elastic/elasticsearch/blob/v5.0.0-alpha1/README.textile) - A Distributed RESTful Search Engine. star: 16156(until 2016/04/26).
 * [elasticsearch-head](https://github.com/mobz/elasticsearch-head) - A web front end for an Elasticsearch cluster. star: 1881(until 2016/04/26).
 * [elastalert](https://github.com/Yelp/elastalert) - Easy & Flexible Alerting With ElasticSearch. ElastAlert is a simple framework for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch. star: 1574(until 2016/04/26).
-* [kopf](https://github.com/lmenezes/elasticsearch-kopf) - web admin interface for elasticsearch. kopf is a simple web administration tool for elasticsearch written in JavaScript + AngularJS + jQuery + Twitter bootstrap. It offers an easy way of performing common tasks on an elasticsearch cluster. Not every single API is covered by this plugin, but it does offer a REST client which allows you to explore the full potential of the ElasticSearch API. star: 1351(until 2016/04/26).
+* [kopf](https://github.com/lmenezes/elasticsearch-kopf) - web admin interface for elasticsearch. kopf is a simple web administration tool for elasticsearch written in JavaScript + AngularJS + jQuery + Twitter bootstrap. It offers an easy way of performing common tasks on an elasticsearch cluster. Not every single API is covered by this plugin, but it does offer a REST client which allows you to explore the full potential of the ElasticSearch API. star: 1351(until 2016/04/26). unmaintained now, its replacement is [cerebro](https://github.com/lmenezes/cerebro).
+* [cerebro](https://github.com/lmenezes/cerebro/tree/v0.6.1) - cerebro is an open source(MIT License) elasticsearch web admin tool built using Scala, Play Framework, AngularJS and Bootstrap. star: 315(until 2017/03/12).
 * [elasticsearch-sql](https://github.com/NLPchina/elasticsearch-sql) - Query elasticsearch using familiar SQL syntax. You can also use ES functions in SQL. star: 1318(until 2016/04/26).
 * [bigdesk](https://github.com/lukas-vlcek/bigdesk) - Live charts and statistics for Elasticsearch cluster. star: 1003(until 2016/04/26).
 * [elasticsearch-paramedic](https://github.com/karmi/elasticsearch-paramedic) - A simple tool to inspect the state and statistics about ElasticSearch clusters. It displays real-time statistics and information about your nodes and indices, as well as shard allocation within the cluster. star: 609 (until 2016/04/28).
@@ -107,3 +108,4 @@ Here is an Elasticsearch tool list.
 * add elasticsearch-migration on 2016/04/27
 * add elasticsearch-paramedic && elasticsearch-inquisitor && elasticsearch-analysis-ik && elasticsearch-analysis-pinyin && elasticsearch-analysis-smartcn && elasticsearch-analysis-mmseg && elasticsearch-analysis-ansj && elasticsearch-analysis-combo && elasticsearch-analysis-stconvert && elasticsearch-mapper-attachments && elasticsearch-analysis-string2int on 2016/04/28
 * add ELK doc & EFK doc & elastalert-elasticsearch_aggregations_query_support on 2016/05/05.
+* add cerebro on 2017/03/12.
