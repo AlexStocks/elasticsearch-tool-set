@@ -48,6 +48,18 @@ Here is an Elasticsearch tool list.
 ---
 ## Elasticsearch Client
 * [play2-elasticsearch](https://github.com/cleverage/play2-elasticsearch) - Elasticsearch module for PlayFramework 2.x applications. star: 158(until 2016/04/26).
+* [sql-on-es-cli](https://github.com/jason-heo/sql-on-es-cli) - sql-on-es-cli.py is a simple tool written in Python. It just reads SQL from user and requests the SQL to elasticsearch-SQL and parse Elasticsearch output and print output 2 dimentional table format. star 1(given by me, until 2017/03/15).
+* [Securi in Elasticsearch and sql plugin](https://github.com/NLPchina/elasticsearch-sql/issues/135) - using the ( Python) base64.encodestring(username,password) and add the request to the header to use a user id and password to login to Elastic search. code examples:
+
+'''
+
+	url="http://xxxxx:9200/_sql?sql=SELECT+****++AS+mykey%2C+count%28%2A%29+AS+myval1+FROM+xxxxx%2Fxxxx+WHERE+xxxx%3E0+AND+xxxxx+in%2847%2C37%2C27%2C7%29+and+GEO_BOUNDING_BOX%28xxx%2C-93.29192853733362%2C44.98521676873701%2C-93.24924922748754%2C44.972952619045344%29+GROUP+BY+xxxx+LIMIT+0"
+	
+    req = urllib2.Request(url)
+    base64string = base64.encodestring('%s:%s' % ("username", "password")).replace('\n', '')
+    req.add_header("Authorization", "Basic %s" % base64string)
+    res=urllib2.urlopen(req)
+    print res.read()
 
 ---
 ## Elasticsearch Analyzer
@@ -109,3 +121,4 @@ Here is an Elasticsearch tool list.
 * add elasticsearch-paramedic && elasticsearch-inquisitor && elasticsearch-analysis-ik && elasticsearch-analysis-pinyin && elasticsearch-analysis-smartcn && elasticsearch-analysis-mmseg && elasticsearch-analysis-ansj && elasticsearch-analysis-combo && elasticsearch-analysis-stconvert && elasticsearch-mapper-attachments && elasticsearch-analysis-string2int on 2016/04/28
 * add ELK doc & EFK doc & elastalert-elasticsearch_aggregations_query_support on 2016/05/05.
 * add cerebro on 2017/03/12.
+* add sql-on-es-cli on 2017/03/15.
