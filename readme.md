@@ -25,7 +25,7 @@ Here is an Elasticsearch tool list.
 * [bigdesk](https://github.com/lukas-vlcek/bigdesk) - Live charts and statistics for Elasticsearch cluster. star: 1003(until 2016/04/26).
 * [elasticsearch-paramedic](https://github.com/karmi/elasticsearch-paramedic) - A simple tool to inspect the state and statistics about ElasticSearch clusters. It displays real-time statistics and information about your nodes and indices, as well as shard allocation within the cluster. star: 609 (until 2016/04/28).
 * [elasticsearch-inquisitor](https://github.com/polyfractal/elasticsearch-inquisitor) - Site plugin for Elasticsearch to help understand and debug queries. just adapitve with elasticsearch 1.x. star: 596(until 2016/04/28).
-* [elasticsearch-servicewrapper](https://github.com/elastic/elasticsearch-servicewrapper) - A service wrapper execution for elasticsearch using Java Service Wrapper. DEPRECATED: The service wrapper is deprecated and not maintained. It no longer works with Elasticsearch 2.x. Many of the features have been added to Elastisearch itself, and purpose built deb, rpm packages, as well as windows service, are avaialble. star: 394(until 2016/04/26);  
+* [elasticsearch-servicewrapper](https://github.com/elastic/elasticsearch-servicewrapper) - A service wrapper execution for elasticsearch using Java Service Wrapper. DEPRECATED: The service wrapper is deprecated and not maintained. It no longer works with Elasticsearch 2.x. Many of the features have been added to Elastisearch itself, and purpose built deb, rpm packages, as well as windows service, are avaialble. star: 394(until 2016/04/26);
 * [elasticsearch-segmentspy](https://github.com/polyfractal/elasticsearch-segmentspy) - SegmentSpy is a tool to watch the segments in your indices. Segment graphs update in real-time, allowing you to watch as ElasticSearch (Lucene) merges your segments. SegmentSpy has only been tested on 0.20.2 – 0.90.3. star: 101(until 2016/04/26).
 * [elasticsearch-migration](https://github.com/elastic/elasticsearch-migration) - A plugin to check whether your 0.90 or 1.x cluster can be upgraded directly to 2.x, or whether there are incompatibilites that need resolving first. star: 107(until 2016/04/27).
 * [elastalert-elasticsearch_aggregations_query_support](https://github.com/errordaiwa/elastalert/tree/feature/elasticsearch_aggregations_query_support) -  support aggregation query from elasticsearch. star: 0(until 2016/05/05).
@@ -54,7 +54,7 @@ Here is an Elasticsearch tool list.
 * [Securi in Elasticsearch and sql plugin](https://github.com/NLPchina/elasticsearch-sql/issues/135) - using the ( Python) base64.encodestring(username,password) and add the request to the header to use a user id and password to login to Elastic search. code examples:
 
 		url="http://xxxxx:9200/_sql?sql=SELECT+****++AS+mykey%2C+count%28%2A%29+AS+myval1+FROM+xxxxx%2Fxxxx+WHERE+xxxx%3E0+AND+xxxxx+in%2847%2C37%2C27%2C7%29+and+GEO_BOUNDING_BOX%28xxx%2C-93.29192853733362%2C44.98521676873701%2C-93.24924922748754%2C44.972952619045344%29+GROUP+BY+xxxx+LIMIT+0"
-		
+
 	    req = urllib2.Request(url)
 	    base64string = base64.encodestring('%s:%s' % ("username", "password")).replace('\n', '')
 	    req.add_header("Authorization", "Basic %s" % base64string)
@@ -91,7 +91,7 @@ Here is an Elasticsearch tool list.
 * [elasticsearch-definitive-guide-cn](https://github.com/chenryn/ELKstack-guide-cn) - Elasticsearch, Logstash, Kibana user guide in Chinese. star: 121(until 2016/04/26).
 * [Understanding the Memory Pressure Indicator](https://www.elastic.co/blog/found-understanding-memory-pressure-indicator)
 * [新浪是如何分析处理32亿条实时日志的](http://dockone.io/article/505) - I upload its pdf doc to [my github repository](https://github.com/AlexStocks/elasticsearch-tool-set/blob/master/Better_ELK.pdf) because its primary storage place--vdisk.weibo.com of sina will be closed on 2016/06/30 by powerful force.
-* [基于Flume+Kafka+ Elasticsearch+Storm的海量日志实时分析平台](https://mp.weixin.qq.com/s?__biz=MzIzMzEzODYwOA==&mid=2665283950&idx=1&sn=9005fcaf85f8d4673c62f4067bf3d0ca&scene=2&srcid=0426cgGHbl44hdDO98YUL1ER&from=timeline&isappinstalled=0&pass_ticket=Sf%2FiqNSerEetqlVE7xucKwOzQLuaGO45bEETgpGh49lRZHzeqclwnRNa6StbAp3y)  
+* [基于Flume+Kafka+ Elasticsearch+Storm的海量日志实时分析平台](https://mp.weixin.qq.com/s?__biz=MzIzMzEzODYwOA==&mid=2665283950&idx=1&sn=9005fcaf85f8d4673c62f4067bf3d0ca&scene=2&srcid=0426cgGHbl44hdDO98YUL1ER&from=timeline&isappinstalled=0&pass_ticket=Sf%2FiqNSerEetqlVE7xucKwOzQLuaGO45bEETgpGh49lRZHzeqclwnRNa6StbAp3y)
 
 ---
 ## Elasticsearch Problem
@@ -110,7 +110,7 @@ Here is an Elasticsearch tool list.
         I have looked through ElastAlert config sheet and source code. It seems ElastAlert doesn't support aggregation query from ElasticSearch.
   - 3 https://github.com/Yelp/elastalert
         The only aggregation supported currently is a terms aggregation, by setting use_terms_query.
-  
+
 ---
 ## Elasticsearch Ecosystem
 * [awesome-elasticsearch](https://github.com/dzharii/awesome-elasticsearch) - A curated list of amazingly awesome redis and redis ecosystem resources. star: 265(until 2016/04/26).
@@ -122,3 +122,4 @@ Here is an Elasticsearch tool list.
 * add ELK doc & EFK doc & elastalert-elasticsearch_aggregations_query_support on 2016/05/05.
 * add cerebro on 2017/03/12.
 * add sql-on-es-cli on 2017/03/15.
+* add kafka-connect-elasticsearch & kafka-elasticsearch-consumer on 2017/03/17.
