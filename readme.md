@@ -44,6 +44,8 @@ Here is an Elasticsearch tool list.
 * [elasticsearch-river-kafka](https://github.com/mariamhakobyan/elasticsearch-river-kafka) - The Kafka River plugin allows you to read messages from Kafka and index bulked messages into elasticsearch. The bulk size (the number of messages to be indexed in one request) and concurrent request number is configurable. The Kafka River also supports consuming messages from multiple Kafka brokers and multiple partitions. star: 56(until 2016/04/26).
 * [elasticsearch-river-mysql(STOPPED)](https://github.com/scharron/elasticsearch-river-mysql) - A river for elasticsearch to automatically index mysql content using the replication feed. The Mysql River plugin allows to hook into Mysql replication feed using the excellent python-mysql-replication and automatically index it into elasticsearch. This plugin is based on the elasticsearch-river-couchdb plugin. star: 63(until 2016/04/26).
 * [Elasticsearch-HBase-River](https://github.com/mallocator/Elasticsearch-HBase-River) - An import river similar to the elasticsearch mysql river. If you're looking for an alternative sollution that uses the core hbase libraries and uses hbase replication for moving data, you can find one here: https://github.com/posix4e/Elasticsearch-HBase-River. star: 15(until 2016/04/26).
+* [kafka-connect-elasticsearch](https://github.com/confluentinc/kafka-connect-elasticsearch) - kafka-connect-elasticsearch is a Kafka Connector for copying data between Kafka and Elasticsearch. To build a development version you'll need a recent version of Kafka. You can build kafka-connect-elasticsearch with Maven using the standard lifecycle phases. start: 60(until 2017/03/17).
+* [kafka-elasticsearch-consumer](https://github.com/BigDataDevs/kafka-elasticsearch-consumer/issues/46) - **Daily indices**. This application, Kafka ES Indexer, will read the messages from Kafka, processes (if needed) and batch index them into ElasticSearch. Kafka Version: 0.8.2.1, ElasticSearch: 2.x, Scala Version for Kafka Build: 2.10.0, JDK 1.8. star: 73(untio 2017/03/17).
 
 ---
 ## Elasticsearch Client
@@ -51,15 +53,13 @@ Here is an Elasticsearch tool list.
 * [sql-on-es-cli](https://github.com/jason-heo/sql-on-es-cli) - sql-on-es-cli.py is a simple tool written in Python. It just reads SQL from user and requests the SQL to elasticsearch-SQL and parse Elasticsearch output and print output 2 dimentional table format. star 1(given by me, until 2017/03/15).
 * [Securi in Elasticsearch and sql plugin](https://github.com/NLPchina/elasticsearch-sql/issues/135) - using the ( Python) base64.encodestring(username,password) and add the request to the header to use a user id and password to login to Elastic search. code examples:
 
-'''
-
-	url="http://xxxxx:9200/_sql?sql=SELECT+****++AS+mykey%2C+count%28%2A%29+AS+myval1+FROM+xxxxx%2Fxxxx+WHERE+xxxx%3E0+AND+xxxxx+in%2847%2C37%2C27%2C7%29+and+GEO_BOUNDING_BOX%28xxx%2C-93.29192853733362%2C44.98521676873701%2C-93.24924922748754%2C44.972952619045344%29+GROUP+BY+xxxx+LIMIT+0"
-	
-    req = urllib2.Request(url)
-    base64string = base64.encodestring('%s:%s' % ("username", "password")).replace('\n', '')
-    req.add_header("Authorization", "Basic %s" % base64string)
-    res=urllib2.urlopen(req)
-    print res.read()
+		url="http://xxxxx:9200/_sql?sql=SELECT+****++AS+mykey%2C+count%28%2A%29+AS+myval1+FROM+xxxxx%2Fxxxx+WHERE+xxxx%3E0+AND+xxxxx+in%2847%2C37%2C27%2C7%29+and+GEO_BOUNDING_BOX%28xxx%2C-93.29192853733362%2C44.98521676873701%2C-93.24924922748754%2C44.972952619045344%29+GROUP+BY+xxxx+LIMIT+0"
+		
+	    req = urllib2.Request(url)
+	    base64string = base64.encodestring('%s:%s' % ("username", "password")).replace('\n', '')
+	    req.add_header("Authorization", "Basic %s" % base64string)
+	    res=urllib2.urlopen(req)
+	    print res.read()
 
 ---
 ## Elasticsearch Analyzer
