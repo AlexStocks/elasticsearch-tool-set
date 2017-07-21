@@ -2,17 +2,17 @@
 
 Here is an Elasticsearch tool list.
 
-- [Elasticsearch tool list](#elasticsearch tool list#L10)
-	- [Elasticsearch](#elasticsearch plugins)
-    - [Elasticsearch Log DB](#elasticsearch log database)
-    - [Elasticsearch River](#elasticsearch river)
-    - [Elasticsearch Client](#elasticsearch client framework)
-    - [Elasticsearch Analyzer](#elasticsearch analysis plugins)
-    - [Elasticsearch Mapper](#elasticsearch mapping plugins)
-	- [Kibana](#kibana plugins)
-	- [Elasticsearch Book](#elasticsearch books)
-	- [Elasticsearch Problem](#elasticsearch problems and resolvements)
-	- [Elasticsearch Ecosystem](#elasticsearch ecosystem)
+* [Elasticsearch tool list](#elasticsearch-tool-list)
+  * [Elasticsearch](#elasticsearch)
+  * [Elasticsearch Log DB](#elasticsearch-log-db)
+  * [Elasticsearch River](#elasticsearch-river)
+  * [Elasticsearch Client](#elasticsearch-client)
+  * [Elasticsearch Analyzer](#elasticsearch-analyzer)
+  * [Elasticsearch Mapper](#elasticsearch-mapper)
+  * [Kibana](#kibana)
+  * [Elasticsearch Book](#elasticsearch-book)
+  * [Elasticsearch Problem](#elasticsearch-problem)
+  * [Elasticsearch Ecosystem](#elasticsearch-ecosystem)
 
 ---
 ## Elasticsearch
@@ -45,7 +45,8 @@ Here is an Elasticsearch tool list.
 * [elasticsearch-river-mysql(STOPPED)](https://github.com/scharron/elasticsearch-river-mysql) - A river for elasticsearch to automatically index mysql content using the replication feed. The Mysql River plugin allows to hook into Mysql replication feed using the excellent python-mysql-replication and automatically index it into elasticsearch. This plugin is based on the elasticsearch-river-couchdb plugin. star: 63(until 2016/04/26).
 * [Elasticsearch-HBase-River](https://github.com/mallocator/Elasticsearch-HBase-River) - An import river similar to the elasticsearch mysql river. If you're looking for an alternative sollution that uses the core hbase libraries and uses hbase replication for moving data, you can find one here: https://github.com/posix4e/Elasticsearch-HBase-River. star: 15(until 2016/04/26).
 * [kafka-connect-elasticsearch](https://github.com/confluentinc/kafka-connect-elasticsearch) - kafka-connect-elasticsearch is a Kafka Connector for copying data between Kafka and Elasticsearch. To build a development version you'll need a recent version of Kafka. You can build kafka-connect-elasticsearch with Maven using the standard lifecycle phases. start: 60(until 2017/03/17).
-* [kafka-elasticsearch-consumer](https://github.com/BigDataDevs/kafka-elasticsearch-consumer/issues/46) - **Daily indices**. This application, Kafka ES Indexer, will read the messages from Kafka, processes (if needed) and batch index them into ElasticSearch. Kafka Version: 0.8.2.1, ElasticSearch: 2.x, Scala Version for Kafka Build: 2.10.0, JDK 1.8. star: 73(untio 2017/03/17).
+* [kafka-elasticsearch-consumer](https://github.com/BigDataDevs/kafka-elasticsearch-consumer/issues/46) - **Daily indices**. This application, Kafka ES Indexer, will read the messages from Kafka, processes (if needed) and batch index them into ElasticSearch. Kafka Version: 0.8.2.1, ElasticSearch: 2.x, Scala Version for Kafka Build: 2.10.0, JDK 1.8. star: 73(until 2017/03/17).
+* [kafka-connect-elasticsearch](https://github.com/AlexStocks/kafka-connect-elasticsearch) - write batch data from Kafka into Elasticsearch index and set an index to output to that changes daily witten in Golang. star: 4(until 2017/07/21).
 
 ---
 ## Elasticsearch Client
@@ -123,3 +124,4 @@ Here is an Elasticsearch tool list.
 * add cerebro on 2017/03/12.
 * add sql-on-es-cli on 2017/03/15.
 * add kafka-connect-elasticsearch & kafka-elasticsearch-consumer on 2017/03/17.
+* add kafka-connect-elasticsearch on 2017/07/21.
