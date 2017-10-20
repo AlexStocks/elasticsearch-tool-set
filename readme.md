@@ -28,7 +28,8 @@ Here is an Elasticsearch tool list.
 * [elasticsearch-servicewrapper](https://github.com/elastic/elasticsearch-servicewrapper) - A service wrapper execution for elasticsearch using Java Service Wrapper. DEPRECATED: The service wrapper is deprecated and not maintained. It no longer works with Elasticsearch 2.x. Many of the features have been added to Elastisearch itself, and purpose built deb, rpm packages, as well as windows service, are avaialble. star: 394(until 2016/04/26);
 * [elasticsearch-segmentspy](https://github.com/polyfractal/elasticsearch-segmentspy) - SegmentSpy is a tool to watch the segments in your indices. Segment graphs update in real-time, allowing you to watch as ElasticSearch (Lucene) merges your segments. SegmentSpy has only been tested on 0.20.2 – 0.90.3. star: 101(until 2016/04/26).
 * [elasticsearch-migration](https://github.com/elastic/elasticsearch-migration) - A plugin to check whether your 0.90 or 1.x cluster can be upgraded directly to 2.x, or whether there are incompatibilites that need resolving first. star: 107(until 2016/04/27).
-* [elastalert-elasticsearch_aggregations_query_support](https://github.com/errordaiwa/elastalert/tree/feature/elasticsearch_aggregations_query_support) -  support aggregation query from elasticsearch. star: 0(until 2016/05/05).
+* [aggregations_query](https://github.com/errordaiwa/elastalert/tree/feature/elasticsearch_aggregations_query_support) -  support aggregation query from elasticsearch. star: 0(until 2016/05/05).
+* [search-guard](https://github.com/floragunncom/search-guard) -  an Open Source Elasticsearch plugin that offers encryption, authentication, and authorisation. It builds on Search Guard SSL and provides pluggable authentication and authorization modules in addition. Search Guard is fully compatible with Kibana, Logstash and Beats. star: 1227(until 2017/10/20).
 
 ---
 ## Elasticsearch Log DB
@@ -126,3 +127,4 @@ Here is an Elasticsearch tool list.
 * add kafka-connect-elasticsearch & kafka-elasticsearch-consumer on 2017/03/17.
 * add kafka-connect-elasticsearch on 2017/07/21.
 * add dejavu on 2017/08/10.
+* add search-guard on 2017/10/20.
